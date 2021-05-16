@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		335032BB264B800900EEB14B /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335032BA264B800900EEB14B /* SearchBar.swift */; };
+		335032C0264BA83900EEB14B /* AssessmentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335032BF264BA83900EEB14B /* AssessmentDetail.swift */; };
+		335032CD264C35A600EEB14B /* AssessmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335032CC264C35A600EEB14B /* AssessmentView.swift */; };
+		33574A22264E22C0000C4F43 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33574A21264E22C0000C4F43 /* SpeechRecognizer.swift */; };
+		33574A27264E26DE000C4F43 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33574A26264E26DE000C4F43 /* History.swift */; };
+		33574A2C264E2891000C4F43 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33574A2B264E2891000C4F43 /* ResultsView.swift */; };
+		33574A31264EE072000C4F43 /* AssessmentCorrections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33574A30264EE072000C4F43 /* AssessmentCorrections.swift */; };
+		33574A36264EE1AA000C4F43 /* correction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33574A35264EE1AA000C4F43 /* correction.swift */; };
+		3358CB912644C47B00970643 /* Bundle.Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358CB902644C47B00970643 /* Bundle.Decodable.swift */; };
+		3358CB962644C69D00970643 /* blurb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358CB952644C69D00970643 /* blurb.swift */; };
 		3392F27A2644A77700F49D2B /* ClockworkiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3392F2792644A77700F49D2B /* ClockworkiOSApp.swift */; };
 		3392F27C2644A77700F49D2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3392F27B2644A77700F49D2B /* ContentView.swift */; };
 		3392F27E2644A77900F49D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3392F27D2644A77900F49D2B /* Assets.xcassets */; };
 		3392F2812644A77900F49D2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3392F2802644A77900F49D2B /* Preview Assets.xcassets */; };
 		3392F28C2644A77A00F49D2B /* ClockworkiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3392F28B2644A77A00F49D2B /* ClockworkiOSTests.swift */; };
 		3392F2972644A77A00F49D2B /* ClockworkiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3392F2962644A77A00F49D2B /* ClockworkiOSUITests.swift */; };
+		3392F2AB2644A96900F49D2B /* assessment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3392F2AA2644A96900F49D2B /* assessment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		335032BA264B800900EEB14B /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		335032BF264BA83900EEB14B /* AssessmentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentDetail.swift; sourceTree = "<group>"; };
+		335032CC264C35A600EEB14B /* AssessmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentView.swift; sourceTree = "<group>"; };
+		33574A21264E22C0000C4F43 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		33574A26264E26DE000C4F43 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		33574A2B264E2891000C4F43 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		33574A30264EE072000C4F43 /* AssessmentCorrections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentCorrections.swift; sourceTree = "<group>"; };
+		33574A35264EE1AA000C4F43 /* correction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = correction.swift; sourceTree = "<group>"; };
+		3358CB902644C47B00970643 /* Bundle.Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.Decodable.swift; sourceTree = "<group>"; };
+		3358CB952644C69D00970643 /* blurb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blurb.swift; sourceTree = "<group>"; };
 		3392F2762644A77700F49D2B /* ClockworkiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockworkiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3392F2792644A77700F49D2B /* ClockworkiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockworkiOSApp.swift; sourceTree = "<group>"; };
 		3392F27B2644A77700F49D2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +66,7 @@
 		3392F2922644A77A00F49D2B /* ClockworkiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockworkiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3392F2962644A77A00F49D2B /* ClockworkiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockworkiOSUITests.swift; sourceTree = "<group>"; };
 		3392F2982644A77A00F49D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3392F2AA2644A96900F49D2B /* assessment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assessment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +119,17 @@
 			children = (
 				3392F2792644A77700F49D2B /* ClockworkiOSApp.swift */,
 				3392F27B2644A77700F49D2B /* ContentView.swift */,
+				33574A30264EE072000C4F43 /* AssessmentCorrections.swift */,
+				335032CC264C35A600EEB14B /* AssessmentView.swift */,
+				33574A26264E26DE000C4F43 /* History.swift */,
+				33574A2B264E2891000C4F43 /* ResultsView.swift */,
+				335032BF264BA83900EEB14B /* AssessmentDetail.swift */,
+				335032BA264B800900EEB14B /* SearchBar.swift */,
+				3392F2AA2644A96900F49D2B /* assessment.swift */,
+				33574A35264EE1AA000C4F43 /* correction.swift */,
+				3358CB952644C69D00970643 /* blurb.swift */,
+				33574A21264E22C0000C4F43 /* SpeechRecognizer.swift */,
+				3358CB902644C47B00970643 /* Bundle.Decodable.swift */,
 				3392F27D2644A77900F49D2B /* Assets.xcassets */,
 				3392F2822644A77900F49D2B /* Info.plist */,
 				3392F27F2644A77900F49D2B /* Preview Content */,
@@ -194,6 +227,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Troth Management";
 				TargetAttributes = {
 					3392F2752644A77700F49D2B = {
 						CreatedOnToolsVersion = 12.4;
@@ -259,8 +293,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33574A36264EE1AA000C4F43 /* correction.swift in Sources */,
+				335032CD264C35A600EEB14B /* AssessmentView.swift in Sources */,
+				3358CB912644C47B00970643 /* Bundle.Decodable.swift in Sources */,
 				3392F27C2644A77700F49D2B /* ContentView.swift in Sources */,
+				3392F2AB2644A96900F49D2B /* assessment.swift in Sources */,
+				33574A27264E26DE000C4F43 /* History.swift in Sources */,
+				33574A2C264E2891000C4F43 /* ResultsView.swift in Sources */,
 				3392F27A2644A77700F49D2B /* ClockworkiOSApp.swift in Sources */,
+				33574A22264E22C0000C4F43 /* SpeechRecognizer.swift in Sources */,
+				335032C0264BA83900EEB14B /* AssessmentDetail.swift in Sources */,
+				3358CB962644C69D00970643 /* blurb.swift in Sources */,
+				335032BB264B800900EEB14B /* SearchBar.swift in Sources */,
+				33574A31264EE072000C4F43 /* AssessmentCorrections.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +464,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ClockworkiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 98ZLB6494X;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ClockworkiOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -440,6 +486,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ClockworkiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 98ZLB6494X;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ClockworkiOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
