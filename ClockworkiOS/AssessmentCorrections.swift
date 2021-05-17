@@ -15,7 +15,22 @@ struct AssessmentCorrections: View {
     var structure: [String]
     var visual: [String]
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            HStack {
+                VStack(alignment: .leading) {
+                    Text("The wheel rolled down the hill")
+                        .font(.subheadline)
+                        .padding(2)
+                    Text("\"The wheel rolling down the hill.\"")
+                        .font(.footnote)
+                        .foregroundColor(.gray)
+                        .italic()
+                        .truncationMode(.tail)
+                }
+                Spacer()
+                Image(systemName: "play.circle")
+            }
+        }
     }
 }
 
